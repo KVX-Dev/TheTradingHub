@@ -39,7 +39,7 @@ Klone das Repository und installiere die Abhängigkeiten:
 
 ```bash
 git clone [https://github.com/KVX-Dev/TheTradingHub.git](https://github.com/KVX-Dev/TheTradingHub.git)
-cd quanthub
+cd TheTradingHub
 npm install
 npm run dev
 ```
