@@ -1,4 +1,4 @@
-# QuantHub: Professional Trading Journal
+# TheTradingHub: Professional Trading Journal
 
 > **Execute like a machine. Analyze like a scientist.**
 
@@ -30,7 +30,7 @@ QuantHub ist eine leistungsstarke, **local-first** Desktop-Anwendung für Trader
 ## 🚀 Getting Started
 
 ### Für Nutzer
-1. Gehe zur [Releases](https://github.com/yourusername/quanthub/releases) Seite.
+1. Gehe zur [Releases](https://github.com/KVX-Dev/TheTradingHub/releases) Seite.
 2. Lade die `.exe` (Windows) oder `.dmg` (macOS) der neuesten Version herunter.
 3. Installieren und direkt mit dem Journaling starten.
 
@@ -38,37 +38,8 @@ QuantHub ist eine leistungsstarke, **local-first** Desktop-Anwendung für Trader
 Klone das Repository und installiere die Abhängigkeiten:
 
 ```bash
-git clone [https://github.com/yourusername/quanthub.git](https://github.com/yourusername/quanthub.git)
+git clone [https://github.com/KVX-Dev/TheTradingHub.git](https://github.com/KVX-Dev/TheTradingHub.git)
 cd quanthub
 npm install
 npm run dev
-📊 Die QSA-12 Logik
-QuantHub ist von Haus aus für die Quantitative Structure Alignment (QSA-12) Strategie optimiert:
-
-Bias: H1 EMA 50 Alignment Check.
-
-Execution: M5 Change of Character (ChoCh) + RSI(7) Momentum Trigger.
-
-Risk: Festes 1:2 CRV (wird automatisch in der App berechnet).
-
-🛡 Disclaimer
-Trading ist mit erheblichen Risiken verbunden. Diese Software ist ein Werkzeug zur Dokumentation und Analyse. Sie stellt keine Finanzberatung oder automatisierte Ausführung dar. Backteste deine Strategien immer ausgiebig, bevor du echtes Kapital riskierst.
-
-🤝 Contributing
-Beiträge machen die Open-Source-Community zu einem fantastischen Ort zum Lernen und Gestalten. Jeder Beitrag ist willkommen.
-
-Projekt forken
-
-Feature Branch erstellen (git checkout -b feature/AmazingFeature)
-
-Änderungen committen (git commit -m 'Add some AmazingFeature')
-
-Branch pushen (git push origin feature/AmazingFeature)
-
-Pull Request eröffnen
-
-GitHub Description (Kurzbeschreibung für die Sidebar)
-📊 QuantHub | High-end, local-first Electron App für quantitative Trader. Tracke R-Multiples, Equity Curves und meistere die QSA-12 Strategie mit einem Bloomberg-inspirierten UI. 🚀
-
-
----
+```
