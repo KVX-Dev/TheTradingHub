@@ -1,69 +1,74 @@
-QuantHub: Professional Trading Journal
-Execute like a machine. Analyze like a scientist.
+# QuantHub: Professional Trading Journal
 
-QuantHub is a high-performance, local-first desktop application built for traders who prioritize data over emotions. Designed specifically for quantitative strategies like QSA-12, it provides deep insights into your "Edge" through R-multiple analysis and psychological tracking.
+> **Execute like a machine. Analyze like a scientist.**
 
-⚡ Key Features
-Zero-Latency Local Storage: Powered by SQLite. Your trade data never leaves your machine.
+QuantHub ist eine leistungsstarke, **local-first** Desktop-Anwendung für Trader, die Daten über Emotionen stellen. Speziell entwickelt für quantitative Strategien wie **QSA-12**, bietet es tiefe Einblicke in deinen "Edge" durch R-Multiple-Analysen und psychologisches Tracking.
 
-Quantitative Metrics: Automated calculation of R-Multiples, Profit Factor, and Expectancy.
+---
 
-Visual Equity Curve: Real-time tracking of your account growth using interactive Plotly charts.
+## ⚡ Key Features
 
-Strategy Tagging: Analyze which setups (e.g., QSA-12, Breakouts, Mean Reversion) are actually printing money.
+* **Zero-Latency Local Storage:** Basierend auf SQLite. Deine Trading-Daten verlassen niemals deinen Rechner.
+* **Quantitative Metriken:** Automatisierte Berechnung von **R-Multiples**, Profit-Faktor und Erwartungswert (Expectancy).
+* **Visuelle Equity Curve:** Echtzeit-Tracking deines Kontowachstums mit interaktiven Charts (Plotly/Recharts).
+* **Strategy Tagging:** Analysiere, welche Setups (z. B. QSA-12, Breakouts, Mean Reversion) tatsächlich profitabel sind.
+* **Pro-Level UI:** Ein elegantes, von Bloomberg inspiriertes Dark-Mode-Interface, gebaut mit Tailwind CSS und Shadcn/ui.
+* **Psychologie-Log:** Dokumentiere deinen emotionalen Zustand bei jedem Trade, um "Tilt" zu identifizieren, bevor er Kapital kostet.
 
-The "Pro" UI: A sleek, Bloomberg-inspired Dark Mode interface built with Tailwind CSS and Shadcn/ui.
+---
 
-Psychology Log: Track your emotional state during entries to identify "Tilt" before it costs you capital.
+## 🛠 Tech Stack
 
-🛠 Tech Stack
-Framework: Electron (Desktop Core)
+* **Framework:** [Electron](https://www.electronjs.org/) (Desktop Core)
+* **Frontend:** [React](https://reactjs.org/) + [Tailwind CSS](https://tailwindcss.com/)
+* **UI Components:** [Shadcn/ui](https://ui.shadcn.com/)
+* **Datenbank:** [SQLite](https://www.sqlite.org/)
+* **Visualisierung:** [Recharts](https://recharts.org/) / [Plotly](https://plotly.com/javascript/react/)
 
-Frontend: React + Tailwind CSS
+---
 
-Components: Shadcn/ui
+## 🚀 Getting Started
 
-Database: SQLite
+### Für Nutzer
+1. Gehe zur [Releases](https://github.com/yourusername/quanthub/releases) Seite.
+2. Lade die `.exe` (Windows) oder `.dmg` (macOS) der neuesten Version herunter.
+3. Installieren und direkt mit dem Journaling starten.
 
-Charts: Recharts / Plotly
+### Für Entwickler
+Klone das Repository und installiere die Abhängigkeiten:
 
-🚀 Getting Started
-For Users
-Go to the Releases page.
-
-Download the .exe (Windows) or .dmg (macOS) for the latest version.
-
-Install and start journaling.
-
-For Developers
-Clone the repo and install dependencies:
-
-Bash
-git clone https://github.com/yourusername/quanthub.git
+```bash
+git clone [https://github.com/yourusername/quanthub.git](https://github.com/yourusername/quanthub.git)
 cd quanthub
 npm install
 npm run dev
-📊 The QSA-12 Logic
-QuantHub is optimized for the Quantitative Structure Alignment (QSA-12) strategy:
+📊 Die QSA-12 Logik
+QuantHub ist von Haus aus für die Quantitative Structure Alignment (QSA-12) Strategie optimiert:
 
-Bias: H1 EMA 50 alignment.
+Bias: H1 EMA 50 Alignment Check.
 
 Execution: M5 Change of Character (ChoCh) + RSI(7) Momentum Trigger.
 
-Risk: Fixed 1:2 RR (automatically calculated in-app).
+Risk: Festes 1:2 CRV (wird automatisch in der App berechnet).
 
 🛡 Disclaimer
-Trading involves significant risk. This software is a tool for documentation and analysis. It does not provide financial advice or automated execution. Always backtest your strategies before risking real capital.
+Trading ist mit erheblichen Risiken verbunden. Diese Software ist ein Werkzeug zur Dokumentation und Analyse. Sie stellt keine Finanzberatung oder automatisierte Ausführung dar. Backteste deine Strategien immer ausgiebig, bevor du echtes Kapital riskierst.
 
 🤝 Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+Beiträge machen die Open-Source-Community zu einem fantastischen Ort zum Lernen und Gestalten. Jeder Beitrag ist willkommen.
 
-Fork the Project
+Projekt forken
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Feature Branch erstellen (git checkout -b feature/AmazingFeature)
 
-Commit your Changes (git commit -m 'Add some AmazingFeature')
+Änderungen committen (git commit -m 'Add some AmazingFeature')
 
-Push to the Branch (git push origin feature/AmazingFeature)
+Branch pushen (git push origin feature/AmazingFeature)
 
-Open a Pull Request
+Pull Request eröffnen
+
+GitHub Description (Kurzbeschreibung für die Sidebar)
+📊 QuantHub | High-end, local-first Electron App für quantitative Trader. Tracke R-Multiples, Equity Curves und meistere die QSA-12 Strategie mit einem Bloomberg-inspirierten UI. 🚀
+
+
+---
